@@ -1,0 +1,90 @@
+h1 {
+    background-color: #3BFF49;
+    border: 2px solid;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 50px;
+    font-size: 2em;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 5px black;
+}
+
+th {
+    border: 2px solid;
+    text-align: center;
+    width: 100vw;
+    height: 11vh;
+    font-size: 1.5em;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+td {
+    border: 2px solid;
+    text-align: center;
+    height: 11vh;
+    font-size: 1.5em;
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+.dias {
+    background-color: #3BB1FF;
+}
+
+.horas {
+    background-color: #3BB1FF;
+}
+
+.programacion {
+    background-color: #8DFF5C;
+}
+
+.ipe {
+    background-color: #FF5DF5;
+}
+
+.ed {
+    background-color: #FFBD5C;
+}
+
+.bd {
+    background-color: #87EAFF;
+}
+
+.lmsgi {
+    background-color: #FF8566;
+}
+
+.sasp {
+    background-color: #66FFCD;
+}
+
+.sisinf {
+    background-color: #AA867D;
+}
+
+.dasp {
+    background-color: #9166FF;
+}
+
+#hora {
+    background-color: #3BB1FF;
+}
+
+#recreo {
+    background-color: #FFF842;
+    letter-spacing: 100px;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px black;
+}

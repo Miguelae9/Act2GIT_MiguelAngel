@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Aquí está el titulo de la página y los links correspondientes. -->
+    <title>Horario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=New+Rocker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styleshorario.css">
+</head>
+
+<body>
+    <!-- Aquí está todo el contenido de la tabla, desde las horas y los días, hasta las asignaturas. -->
+    <h1>HORARIO</h1>
+    <table>
+        <tr>
+            <th id="hora">Hora</th>
+            <th class="dias">Lunes</th>
+            <th class="dias">Martes</th>
+            <th class="dias">Miércoles</th>
+            <th class="dias">Jueves</th>
+            <th class="dias">Viernes</th>
+        </tr>
+
+        <tr>
+            <td class="horas">8:15 - 9:15</td>
+            <td rowspan="2" class="programacion">Programación</td>
+            <td class="ipe">Itinerario Personal para la Empleabilidad</td>
+            <td rowspan="2" class="ed">Entornos de Desarrollo</td>
+            <td rowspan="2" class="programacion">Programación</td>
+            <td rowspan="2" class="bd">Base de Datos</td>
+        </tr>
+
+        <tr>
+            <td class="horas">9:15 - 10:15</td>
+            <td class="ed">Entornos de Desarrollo</td>
+        </tr>
+
+        <tr>
+            <td class="horas">10:15 - 11:15</td>
+            <td class="bd">Base de Datos</td>
+            <td class="lmsgi">Lenguaje de Marcas y Sistemas de Gestión de la información</td>
+            <td class="bd">Base de Datos</td>
+            <td class="ipe">Itinerario Personal para la Empleabilidad</td>
+            <td class="sasp">Sostenibilidad aplicada al Sistema Productivo</td>
+        </tr>
+
+        <tr>
+            <td class="horas">11:15 - 11:45</td>
+            <td colspan="5" id="recreo">RECREO</td>
+        </tr>
+
+        <tr>
+            <td class="horas">11:45 - 12:45</td>
+            <td class="bd">Base de Datos</td>
+            <td rowspan="3" class="programacion">Programación</td>
+            <td class="bd">Base de Datos</td>
+            <td rowspan="2" class="lmsgi">Lenguaje de Marcas y Sistemas de Gestión de la información</td>
+            <td class="ipe">Itinerario Personal para la Empleabilidad</td>
+        </tr>
+
+        <tr>
+            <td class="horas">12:45 - 13:45</td>
+            <td rowspan="2" class="sisinf">Sistemas Informáticos</td>
+            <td rowspan="2" class="sisinf">Sistemas Informáticos</td>
+            <td class="sisinf">Sistemas Informáticos</td>
+        </tr>
+
+        <tr>
+            <td class="horas">13:45 - 14:45</td>
+            <td class="dasp">Digitalización Aplicada a los Sectores Productivos</td>
+            <td class="programacion">Programación</td>
+        </tr>
+</table>
+</body>
