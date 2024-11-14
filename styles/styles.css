@@ -58,10 +58,8 @@ main {
 
 img {
     display: flex;
-    justify-self: center;
-    padding-top: 20px;
-    height: 60vh;
-    width: 80vw;
+    height: 30vh;
+    width: 20vw;
 }
 
 /* Pie de página */
